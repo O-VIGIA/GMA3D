@@ -1,0 +1,15 @@
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_disparity_change.tar.bz2 >disparity_change 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_disparity_occlusions.tar.bz2 >disparity_occlusions 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_disparity_occlusion_weights.tar.bz2 >disparity_occlusion_weights 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_disparity.tar.bz2 >disparity 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_flow_occlusions.tar.bz2 >flow_occlusions 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_flow_occlusion_weights.tar.bz2 >flow_occlusion_weights 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_flow.tar.bz2 >flow 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_image_clean.tar.bz2 >image_clean 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_motion_boundaries.tar.bz2 >motion_boundaries 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_motion_boundary_weights.tar.bz2 >motion_boundary_weights 2>&1 &
+nohup wget https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_object_ids.tar.bz2 >object_ids 2>&1 &
+
+nohup wget https://drive.google.com/file/d/1CMaxdt-Tg1Wct8v8eGNwuT7qRSIyJPY-/view?usp=sharing >FT_OC_DATA 2>&1 &
+
+Process finished with exit code 0
