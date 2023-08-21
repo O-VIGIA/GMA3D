@@ -13,7 +13,7 @@ class Gma3D(nn.Module):
     Wq:(64,64/4)
     Wk:(64,64/4)
     Wv:(64,64)
-    question:(1)ues position encoder? (2)use residual attention?
+    question:ues position encoder use residual attention
 
     """
 
@@ -56,12 +56,12 @@ class self_attention(nn.Module):
         self.q_conv.weight = self.k_conv.weight
         self.q_conv.bias = self.k_conv.bias
         #  add pos encoder
-        # self.am_conv = nn.Sequential(
-        #     nn.Conv2d(4, 16, 1),
-        #     nn.GroupNorm(8, 16),
-        #     nn.PReLU(),
-        #     nn.Conv2d(16, 1, 1),
-        # )
+        self.am_conv = nn.Sequential(
+            nn.Conv2d(4, 16, 1),
+            nn.GroupNorm(8, 16),
+            nn.PReLU(),
+            nn.Conv2d(16, 1, 1),
+        )
         self.softmax = nn.Softmax(dim=-1)
 
     def forward(self, context_features, xyz1, pos_coef=0.1):
