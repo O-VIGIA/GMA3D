@@ -1,7 +1,7 @@
 # GMA3D: Local-Global Attention Learning to Estimate Occluded Motions of Scene Flow
 
 ## News
-
+GMA3D was accepted in PRCV2023!
 ## Environments
 
 You will have to choose cudatoolkit version to match your compute environment. 
