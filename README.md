@@ -2,6 +2,10 @@
 
 ## News
 GMA3D was accepted in PRCV2023!
+
+## Movie
+<video src="./Test_3_1.mp4"></video>
+
 ## Environments
 
 You will have to choose cudatoolkit version to match your compute environment. 
